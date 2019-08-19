@@ -13,20 +13,20 @@ Create a calculator that only supports an Add operation given a single formatted
 
 ## Requirements
 1. Support a maximum of 2 numbers
-	* Use a comma delimited format e.g. "1,20" will return 21
-	* Invalid/Missing numbers should be converted to 0 e.g. "" will return 0; "5,tytyt" will return 5
+	* Use a comma delimited format e.g. `1,20` will return `21`
+	* Invalid/Missing numbers should be converted to 0 e.g. "" will return `0`; `5,tytyt` will return `5`
 2. Support more than 2 numbers
-3. Support a newline character as an alternative delimiter e.g. "1\n2,3" will return 6 
+3. Support a newline character as an alternative delimiter e.g. `1\n2,3` will return `6` 
 4. Deny negative numbers. An exception should be thrown that includes all of the negative numbers provided
-5. Ignore any number greater than 1000 e.g. "2,1001,6" will return 8
+5. Ignore any number greater than 1000 e.g. `2,1001,6` will return `8`
 6. Support a single custom delimiter
-	* use the format: "//{delimiter}\n{numbers}" e.g. "//;\n2;5" will return 7
+	* use the format: `//{delimiter}\n{numbers}` e.g. `//;\n2;5` will return `7`
 	* all existing appropriate scenarios should still be supported
 7. Support delimiters of any length
-	* use the format: "//[{delimiter}]\n{numbers}" e.g. "//[***]\n11***22***33" will return 66
+	* use the format: `//[{delimiter}]\n{numbers}` e.g. `//[***]\n11***22***33` will return `66`
 	* all existing appropriate scenarios should still be supported
 8. Support multiple delimiters
-	* use the format: "//[{delimiter1}][{delimiter2}]...\n{numbers}" e.g. "//[*][!!][rrr]\n11rrr22*33!!44" will return 110
+	* use the format: `//[{delimiter1}][{delimiter2}]...\n{numbers}` e.g. `//[*][!!][rrr]\n11rrr22*33!!44` will return `110`
 	* all existing appropriate scenarios should still be supported
 
 ## Stretch goals
