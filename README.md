@@ -6,7 +6,7 @@ Create a calculator that only supports an Add operation given a single formatted
 
 * C# console application
 * Include unit tests
-* Provide code via a public distributed version control repository i.e. GitHub
+* Provide code via a public distributed version control repository i.e. GitHub. Do NOT fork this repo
 * Show each step as a separate commit
 * Efficient code is always important but for this excercise readability and separatation of concerns are much more critical
 * Not including one or more of the stretch goals will not affect your overall assessment but implementing them poorly will
